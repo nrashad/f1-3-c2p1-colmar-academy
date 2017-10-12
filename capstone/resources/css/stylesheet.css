@@ -1,0 +1,238 @@
+@media only screen and (min-width: 500px){
+body{
+    background-color: white;
+    margin: 0;
+}
+
+
+h1{
+    font-size: 50px;
+}
+.center-text h2{
+    font-size: 30px;
+}
+.center-text p{
+    font-size: 20px;
+    padding-bottom: 16px;
+}
+a{
+    text-decoration: none;
+}
+.nav a{
+    font-size: 20px;
+    padding-right: 24px;
+}
+.main-container{
+    max-width: 1300px;
+    margin: auto;
+    border:1px solid gray;
+    background-color: lightgray;
+}
+.header{ 
+    background-color: white;
+    display: flex;
+    height: 64px;
+    justify-content: space-between;
+    
+}
+.header img{
+    padding-left: 24px;
+}
+    
+.logo {
+    display: inherit;
+}
+.logo span{
+    color:gray;
+    font-weight: 200;
+}
+.nav{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-right: 24px;
+
+}
+
+.center{
+   display: flex;
+ 
+}
+.left img{
+    margin-left: 0;
+    width: 100%;
+}
+.img{
+    
+    margin: 0 24px;
+    width: 60%;
+    margin-bottom: 32px;
+}
+.center-text {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.center-text h2{
+    color: gray;
+}
+.center-text h3{
+    background-color: darkgray;
+    padding: 8px 100px;
+}
+.center .left{
+    margin-bottom: 0;
+    width: 60%;
+}
+.left {
+    max-width: 60%;    
+    margin: 32px 24px;
+}
+.right{
+    display: inline;
+    width: 40%;
+    margin-top: 12px;
+    margin-bottom: 32px;
+    border-left: 
+}
+#thesis{
+    background-color: white;
+    margin-bottom: 0;
+}
+.information {
+    display: flex;
+    background-color: white;
+}
+.small {
+    display: flex;
+    align-items: center;
+}
+.small:hover{
+    background-color: lightgray;
+}
+
+.small-img {
+    margin: 16px;
+    width: 35%;
+    height: auto;
+}
+
+.img-cont {
+    width: 100%;
+    margin: auto;
+}
+.img-cont p{
+    padding-left: 0;
+}
+
+ p{
+    margin: 8px auto;
+    color: gray;
+}
+
+.mobile-img {
+    display: none;
+}
+
+.learning-text {
+    display: block;
+    text-align: center;
+}
+.learning-text h3{
+    position: relative;
+    font-size: 50px;
+    margin: 32px ;
+    display:inline-block;
+}
+.learning-text {
+    display: block;
+    margin: auto;
+    background-color: lightgray;
+}
+
+.subjects {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    background-color: lightgray;
+}
+.subject{
+    margin-right:32px;
+    margin-bottom: 32px;
+    width: 300px;
+    background-color: white;
+    
+}
+.subject-img {
+    padding-top: 0;
+    display:flex;
+    margin-bottom: 16px;
+    width: 300px;
+    height: auto;
+}
+.subjects h3{
+    padding-left: 16px;
+}
+.subjects h4{
+    padding: 8px 16px;
+    color: gray;
+    
+}
+.subjects p{
+    padding-bottom: 24px;
+    padding-left: 16px;
+}
+
+#subjects {
+    display: flex;
+    margin: auto; 72px;
+    align-content: center;
+    justify-content: center;
+}
+
+#video h1{
+    margin: 24px auto 8px 0;
+}
+
+#video-container {
+    border-bottom: 1px solid lightgray;
+}
+
+.footer {
+    display: flex;
+    border-top: 1px solid lightgray;
+    background-color: white;
+    justify-content: space-between;
+    
+}
+.footer p{
+    margin: 16px 14px;
+    
+}
+.footer span{
+    margin: 16px 24px;
+}
+}
+@media only screen and (max-width: 500px){
+    
+    .nav{
+        height: 64px;
+    }
+    .nav a,h2{
+        display: none;
+    }
+    .subjects{
+        display: none;
+    }
+    .small-img{
+        display: none;
+    }
+    .left{
+        max-height: 60%;
+    }
+}
+
